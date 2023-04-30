@@ -1,0 +1,49 @@
+@import "resetNew";
+@import "variables/globals";
+@import "themes/light";
+@import "themes/dark";
+
+
+h1 {
+	font-weight: 800;
+	font-size: var(--h1-size);
+	line-height: var(--h1-lh);
+	letter-spacing: 0.01em;
+	text-transform: uppercase;
+}
+
+h2 {
+	font-weight: 800;
+	font-size: var(--h1-size);
+	line-height: var(--h1-lh);
+}
+
+h3 {
+	font-size: var(--h3-size);
+	line-height: var(--h3-lh);
+}
+
+h4 {
+	font-size: var(--h4-size);
+	line-height: var(--h4-lh);
+}
+
+h5 {
+	font-size: var(--h5-size);
+	line-height: var(--h5-lh);
+}
+
+h6 {
+	font-size: var(--h6-size);
+	line-height: var(--h6-lh);
+}
+
+p {
+	font-size: var(--p-size);
+	line-height: var(--p-lh);
+
+	&.p2 {
+		font-size: var(--p2-size);
+		line-height: var(--p2-lh);
+	}
+}

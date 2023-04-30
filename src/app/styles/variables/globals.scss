@@ -1,0 +1,115 @@
+@font-face {
+    font-family: "Winter Sans";
+    src: url("shared/assets/fonts/WinterSans-Regular.woff2");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Winter Sans Italic";
+    src: url("shared/assets/fonts/WinterSans-Italic.woff2");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Winter Sans";
+    src: url("shared/assets/fonts/WinterSans-ExtraBold.woff2");
+    font-weight: 800;
+}
+
+@font-face {
+    font-family: "Winter Sans Italic";
+    src: url("shared/assets/fonts/WinterSans-ExtraBoldItalic.woff2");
+    font-weight: 800;
+}
+
+:root {
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+
+
+    font-family: "Winter Sans";
+    font-style: normal;
+    font-weight: 400;
+
+    --black: #1e1b22;
+    --grey-1: #808181;
+    --grey-2: #dcdcdc;
+    --white: #f2f2f2;
+
+    /*     --h1-size: 37px;
+    --h2-size: 46px;
+    --h3-size: 34px;
+    --h4-size: 28px;
+    --h5-size: 20px;
+    --h6-size: 20px;
+    --p-size: 20px;
+    --p2-size: 16px;
+
+    --h1-lh: 46px;
+    --h2-lh: 64px;
+    --h3-lh: 48px;
+    --h4-lh: 48px;
+    --h5-lh: 32px;
+    --h6-lh: 32px;
+    --p-lh: 32px;
+    --p2-lh: 24px; */
+
+    --h1-size: 10vw;
+    --h2-size: 12.4vw;
+    --h3-size: 9vw;
+    --h4-size: 7.6vw;
+    --h5-size: 5.4vw;
+    --h6-size: 5.4vw;
+    --p-size: 5.4vw;
+    --p2-size: 4.3vw;
+
+    --h1-lh: 124%;
+    --h2-lh: 139%;
+    --h3-lh: 141%;
+    --h4-lh: 171%;
+    --h5-lh: 160%;
+    --h6-lh: 160%;
+    --p-lh: 160%;
+    --p2-lh: 150%;
+
+    --icon-size: 26px;
+}
+
+/* -------------------------------------------------------------------------- */
+/*                                TABLET STYLES                               */
+/* -------------------------------------------------------------------------- */
+@media screen and (min-width: 600px) {
+    :root {
+        /*     --h1-size: 78px;
+        --h2-size: 94px;
+        --h3-size: 54px;
+        --h4-size: 38px;
+        --h5-size: 32px;
+        --p2-size: 20px;
+
+        --h1-lh: 84px;
+        --h2-lh: 128px;
+        --h3-lh: 72px;
+        --h4-lh: 56px;
+        --h5-lh: 56px;
+        --p2-lh: 32px; */
+    }
+}
+
+/* -------------------------------------------------------------------------- */
+/*                               DESKTOP STYLES                               */
+/* -------------------------------------------------------------------------- */
+@media screen and (min-width: 1023px) {
+    :root {
+        /*        --h1-size: 110px;
+        --h6-size: 28px;
+
+        --h1-lh: 118px;
+        --h6-lh: 40px; */
+
+        --icon-size: 44px;
+    }
+}

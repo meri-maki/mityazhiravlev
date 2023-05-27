@@ -2,6 +2,8 @@
 @import "variables/globals";
 @import "themes/light";
 @import "themes/dark";
+@import "scroll";
+
 
 
 h1 {
@@ -46,4 +48,33 @@ p {
 		font-size: var(--p2-size);
 		line-height: var(--p2-lh);
 	}
+}
+
+/* svg {
+	width: var(--icon-size);
+	height: var(--icon-size);
+	max-width: var(--icon-max-size);
+	max-height: var(--icon-max-size);
+} */
+
+img {
+	pointer-events: none;
+}
+
+.app {
+	position: relative;
+	overflow-x: hidden;
+
+	section {
+		padding: 0 var(--horizontal-paddings);
+		margin-bottom: 30rem;
+	}
+
+	footer {
+		padding: var(--gap) var(--horizontal-paddings) var(--bottom-padding) var(--horizontal-paddings);
+	}
+}
+
+.link {
+	font-weight: 600;
 }

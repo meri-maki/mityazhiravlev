@@ -1,0 +1,46 @@
+.Accordeon {
+    .main {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: stretch;
+        padding-bottom: 4.8rem;
+        border-bottom: var(--border-grey);
+        margin-bottom: 6.4rem;
+        cursor: pointer;
+
+        .titles {
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            gap: 6.4rem;
+            z-index: 100;
+
+            .titleNumber {}
+
+            .titleTitle {}
+        }
+
+        .icon {}
+    }
+
+    .textEnterActive {
+        opacity: 0;
+    }
+
+    .textEnterDone {
+        opacity: 1;
+        transition: all 0.3s ease;
+    }
+
+    .textExit {
+        opacity: 1;
+    }
+
+    .textExitActive {
+        opacity: 0;
+        transition: all 0.3s ease;
+    }
+
+    .text {}
+}

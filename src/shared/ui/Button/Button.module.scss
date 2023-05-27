@@ -1,38 +1,85 @@
 .button {
-    padding: 8px 16px;
-    font: var(--font-s);
-    border-radius: 48px;
-    box-shadow: var(--shadow-s);
-    transition: all 0.1s ease-in-out;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-grow: 0;
-    color: var(--primary-color);
+    background-color: transparent;
+    color: inherit;
 }
 
-.button:active {
-    transform: scale(0.95);
-}
+.button:active {}
 
 .primary {
-    background: var(--inv-primary-color);
-}
-
-.secondary {
-    background: var(--primary-lightest);
-    color: var(--primary-base);
-}
-
-.outlined {
-    background: transparent;
-    color: var(--primary-base);
-    border: 1px solid var(--primary-base);
+    font-size: var(--button-size);
+    line-height: var(--button-lh);
 }
 
 .icon {
-    background: var(--inv-primary-color);
-    padding: 6px;
-    border-radius: 50%;
-    max-width: 36px;
+    width: calc(32px * var(--svg-scale));
+    height: calc(32px * var(--svg-scale));
+
+    svg {
+        width: calc(32px * var(--svg-scale));
+        height: calc(32px * var(--svg-scale));
+    }
+}
+
+.accordeon {
+    width: calc(44px * var(--svg-scale));
+    height: calc(44px * var(--svg-scale));
+
+    svg {
+        width: calc(44px * var(--svg-scale));
+        height: calc(44px * var(--svg-scale));
+    }
+
+
+}
+
+.link {
+    position: relative;
+    font-size: var(--h6-size);
+    line-height: var(--h6-lh);
+    white-space: nowrap;
+
+    &::after {
+        content: "";
+        position: absolute;
+        width: 0%;
+        height: 1px;
+        display: block;
+        transition: all 0.3s ease;
+        bottom: -4px;
+        background-color: var(--primary-color);
+    }
+
+    &:hover {
+
+        &::after {
+            width: 100%;
+        }
+    }
+
+}
+
+.navigation {
+    position: relative;
+    font-size: var(--link-size);
+    line-height: var(--link-lh);
+    white-space: nowrap;
+
+    &::after {
+        content: "";
+        position: absolute;
+        width: 0%;
+        height: 1px;
+        display: block;
+        transition: all 0.3s ease;
+        bottom: -4px;
+        background-color: var(--primary-color);
+    }
+
+    &:hover {
+
+        &::after {
+            width: 100%;
+        }
+    }
+
 }

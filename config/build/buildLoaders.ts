@@ -18,11 +18,11 @@ export function buildLoaders({ isDev }: BuildOptions): webpack.RuleSetRule[] {
 
     const fileLoader = {
         test: /\.(png|jpe?g|gif|woff)$/i,
-        use: [
-            {
-                loader: 'file-loader',
-            },
-        ],
+        type: 'asset/resource',
+        generator: {
+            filename: 'assets/images/[name]-[hash:8][ext]',
+        }
+
     }
 
     const babelLoader = {

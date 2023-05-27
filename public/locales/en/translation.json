@@ -1,39 +1,49 @@
 {
-	"lang": "EN",
+	"lang": "РУ",
 	"error-msg": "Что-то пошло не так...",
 
-	"hero-h1": "продуктовый ux—дизайнер",
-	"hero-text": "Более 7 лет помогаю создавать диджитал-продукты решающие бизнес задачи и потребности пользователя.",
-	"hero-current": "Cейчас работаю в",
-	"hero-current-company": "Леруа Мерлен",
+	"hero-h1": "product ux—designer",
 
-	"info-1": "13+ лет работаю в сфере digital-дизайна. Последние 7 лет занимаюсь пользовательским опытом, помогая решать задачи бизнеса.",
-	"info-2": "Свободное время провожу с семьей, играю на барабанах, занимаюсь саунд-продакшеном, и саунд-дизайном. Люблю готовить еду и побросать мячик в корзину.",
+	"hero-text": "For over 7 years, I have been helping to build digital products to solve business problems and user needs.",
+	"hero-current": "Currently working at",
+	"hero-current-company": "Leroy Merlin",
 
-	"process-header": "Как устроен мой рабочий процесс",
-	"process-text": "Я открыто общаюсь с бизнесом, пользователями, разработчиками и менеджерами. Считаю, что коммуникация и взаимодействие являются жизненно важными для успешного процесса в организации.",
-	"process-1": "Анализ и исследования",
-	"process-2": "Прототипирование и дизайн",
-	"process-3": "Разработка",
-	"process-4": "Демо и тестирования",
+	"info-1": "I have been working for 13+ years in the field of digital design. For the last 7 years I have been engaged in user experience, helping solve business problems.",
+	"info-2": "In my spare time, I play the drums, produce and create sounds, and spend time with my family. I enjoy cooking and throwing the ball into the basket.",
 
-	"works-header": "Избранные работы",
-	"leroy-header": "Леруа Мерлен",
-	"leroy-1": "Французская компания, один из крупнейших европейских DIY-ритейлеров.",
-	"leroy-2": "Я работал вместе с российской и европейской командами над глобальным продуктом по логистике, состоящим из 3-х приложений.",
+	"process-header": "The steps I take in my work",
+	"process-text": "I openly communicate with businesses, users, developers and managers. I believe that communication and collaboration are vital to the success of the organization process.",
+	"process-1": "Analysis and Research",
+	"process-1-text": "I begin by analyzing tasks and business processes. I conduct user interviews, analyze data, and create user flows or navigation schemes.",
+	"process-2": "Prototyping and design",
+	"process-2-text": "I create a prototype, test its functionality, hypotheses, and data. Then I design and approve a concept.",
+	"process-3": "Development",
+	"process-3-text": "Transfer the design and component library to development. Decompression tasks are included in the development process.",
+	"process-4": "Demo and Test",
+	"process-4-text": "Presenting demo, processing product data. Testing. I am engaged in further improvement of the product. ",
 
-	"ingrad-header": "Инград",
-	"ingrad-1": "ГК «Инград» — крупная девелоперская компания, в портфеле которой более 2,5 млн. м2 жилой недвижимости комфорт и бизнес-класса.",
-	"ingrad-2": "Я работал над созданием дизайн-концепции и реализация digital-адаптации ребрединга для всех носителей. Формированием визуальной коммуникации.",
+	"works-header": "Selected works",
+	"leroy-header": "Leroy Merlin",
+	"leroy-1": "French company, one of the largest European DIY retailers.",
+	"leroy-2": "I collaborated with Russian and European teams on a worldwide logistics product that included three applications.",
 
-	"contact-header": "Для связи со мной",
-	"contact-mail": "Почта",
+	"ingrad-header": "Ingrad",
+	"ingrad-1": "«Ingrad» is a large development company, which has a portfolio of more than 2.5 mln. m2 of residential property comfort and business class.",
+	"ingrad-2": "I was involved in the development of the design idea as well as the implementation of the digital-adaptation of rebranding for all carriers. The development of visual communication.",
+
+	"contact-header": "Contact Me",
+	"contact-mail": "Email",
 	"contact-telegram": "Telegram",
-	"contact-cv": "Скачать резюме",
+	"contact-cv": "Download CV",
 
 	"contact-instagram": "Instagram",
-	"contact-youtube": "Мой ютуб канал",
+	"contact-youtube": "My Youtube Channel",
 	"contact-linkedin": "LinkedIn",
 
-	"footer-info": "© 2023 Ол райтс резёрвд. Дизайн бай ми, код мейд виз лав бай Анастасия ❤️️"
+	"footer-info": "© 2023 All rights reserved. Design by me, code made with love by ",
+	"footer-ana": "Anastasia ❤️️",
+
+	"link-about": "About",
+	"link-projects": "Projects",
+	"link-contacts": "Contacts"
 }

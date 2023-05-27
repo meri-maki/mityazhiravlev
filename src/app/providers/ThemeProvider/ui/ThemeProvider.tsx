@@ -1,4 +1,4 @@
-import { FC, useMemo, useState } from 'react'
+import React, { FC, useMemo, useState } from 'react'
 import {
     LOCAL_STORAGE_THEME_KEY,
     Theme,
@@ -7,7 +7,11 @@ import {
 
 const defaultTheme = (localStorage.getItem(LOCAL_STORAGE_THEME_KEY) as Theme) || Theme.LIGHT // локалка всегда возвращает СТРОКУ поэтому необходимо сделать явное привидение
 
-const ThemeProvider: FC = ({ children }) => {
+interface Props {
+  children: React.ReactNode;
+}
+// PROP CHILDREN IS NOT INCLUDED IN REACT 18 - BELOW IS THE SOLUTION
+const ThemeProvider: React.FC<Props> = ({ children }) => {
     // FC указан как тип чтобы использоввнь проп children
     const [theme, setTheme] = useState<Theme>(defaultTheme) // дефолтное значение не хардкодим а берем из локалки
 

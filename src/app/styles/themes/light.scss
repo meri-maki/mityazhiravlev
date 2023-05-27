@@ -1,4 +1,15 @@
-:root {
-    color: var(--black);
-    background-color: var(--white);
+.app.light {
+
+
+    --primary-color: var(--black);
+    --back-color: var(--white);
+    color: var(--primary-color);
+    background-color: var(--back-color);
+    transition: color 0.3s ease, background-color 0.3s ease;
+
+    svg {
+        path {
+            stroke: var(--primary-color);
+        }
+    }
 }

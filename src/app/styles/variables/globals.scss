@@ -37,6 +37,9 @@
     --grey-2: #dcdcdc;
     --white: #f2f2f2;
 
+    font-size: 1vw;
+
+
     /*     --h1-size: 37px;
     --h2-size: 46px;
     --h3-size: 34px;
@@ -55,14 +58,17 @@
     --p-lh: 32px;
     --p2-lh: 24px; */
 
-    --h1-size: 10vw;
-    --h2-size: 12.4vw;
-    --h3-size: 9vw;
-    --h4-size: 7.6vw;
-    --h5-size: 5.4vw;
-    --h6-size: 5.4vw;
-    --p-size: 5.4vw;
-    --p2-size: 4.3vw;
+    --h1-size: 14rem;
+    --h2-size: 12.4rem;
+    --h3-size: 9rem;
+    --h4-size: 7.6rem;
+    --h5-size: 5rem;
+    --h6-size: 5rem;
+    --p-size: 5rem;
+    --p2-size: 4.3rem;
+
+    --button-size: 20px;
+    --link-size: 16px;
 
     --h1-lh: 124%;
     --h2-lh: 139%;
@@ -73,7 +79,19 @@
     --p-lh: 160%;
     --p2-lh: 150%;
 
+    --button-lh: 32px;
+    --link-lh: 24px;
+    --svg-scale: 0.6;
+    --menu-scale: 0.72;
     --icon-size: 26px;
+    --icon-max-size: 32px;
+
+    --horizontal-paddings: 7rem;
+    --bottom-padding: 20rem;
+
+    --border-grey: 1px solid var(--grey-2);
+
+    --gap: 10.7rem;
 }
 
 /* -------------------------------------------------------------------------- */
@@ -81,7 +99,8 @@
 /* -------------------------------------------------------------------------- */
 @media screen and (min-width: 600px) {
     :root {
-        /*     --h1-size: 78px;
+        --svg-scale: 1;
+        /*     --h1-size: 78px; or 10rem
         --h2-size: 94px;
         --h3-size: 54px;
         --h4-size: 38px;
@@ -94,6 +113,21 @@
         --h4-lh: 56px;
         --h5-lh: 56px;
         --p2-lh: 32px; */
+
+
+
+        --h2-size: 12rem;
+        --h3-size: 7rem;
+        --h4-size: 5rem;
+        --h5-size: 4rem;
+        --p2-size: 2.6rem;
+
+        --h1-lh: 108%;
+        --h2-lh: 136%;
+        --h3-lh: 133%;
+        --h4-lh: 147%;
+        --h5-lh: 175%;
+        --p2-lh: 160%;
     }
 }
 
@@ -107,7 +141,28 @@
 
         --h1-lh: 118px;
         --h6-lh: 40px; */
+        --h1-size: 7.6rem;
+        --h2-size: 6.5rem;
+        --h3-size: 3.75rem;
+        --h4-size: 2.6rem;
+        --h5-size: 2.2rem;
+        --h6-size: 2rem;
+        --p-size: 1.4rem;
+        --p2-size: 1.4rem;
 
-        --icon-size: 44px;
+        --h1-lh: 107%;
+        --h2-lh: 136%;
+        --h3-lh: 133%;
+        --h4-lh: 147%;
+        --h5-lh: 175%;
+        --h6-lh: 143%;
+        --p-lh: 160%;
+        --p2-lh: 160%;
+
+        --svg-scale: 1;
+        --icon-max-size: 44px;
     }
 }
+
+
+@media screen and (min-width: 1440px) {}
